@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.header').height($(window).height()/5);
+    $('.header').height($(window).height()/8);
 
     if ($(window).width() <= "755"){
         $('.author-follow').before('<br><div class="follow">+ Follow</div>');
